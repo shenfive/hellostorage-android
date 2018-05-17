@@ -3,9 +3,10 @@ package android.idv.sjw.hellostorage;
 import android.graphics.Bitmap;
 
 public class PictureItem {
-    Bitmap bitmap;
+    String imagePath;
 
-    PictureItem(Bitmap bitmap){
-        this.bitmap = bitmap;
+
+    PictureItem(String imagePath){
+        this.imagePath = imagePath;
     }
 }
